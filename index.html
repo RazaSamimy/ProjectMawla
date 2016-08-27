@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Mawla</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+    
+<body>
+<div class="fadeMe">
+    <div class="fadeMeContent">
+    <p> PROJECT MAWLA IS OUR REACTION; A SOCIAL INDICATOR CREATED AND MAINTAINED BY A NARRATIVE ROOTED IN THE EXPERIENCES OF MUSLIM AMERICANS. IT IS AN ACT OF DEFIANCE AGAINST THE PRODUCTS OF ISLAMOPHOBIA; A DEFENSIVE MEASURE TAKEN IN HOPES OF PRESERVING COMMUNITY, FAITH, AND DIFFERENCE. FROM THE MARGINS WE RESIST. WE ARE BRAVE; WE ARE AWARE; WE ARE MUSLIM.</p>
+        <p>  <span class="enterTitle">WE ARE MAWLA</span></p>
+    <img src="img/logoshadow.png" class="fadeMeLogo">
+        
+        
+        <p class="enter" > ENTER </p>
+    </div>
+    
+    </div>    
+    <nav role="navigation" id="top">
+    <div class="nav-wrapper container" id ="navContainer" style="width=100%">
+        <a id="logo-container" href="index.html" class="brand-logo center" > <img src="img/mawlasheildwithwhite.png" class="navLogo" /> </a>
+      <ul class="left hide-on-med-and-down" id="navListLeft" >
+        <li class="navButton"><a href="#" class=" navLink">About Us</a></li>
+        <li class="navButton"><a href="infohub.html" class=" navLink">Info Hub</a></li>
+        <li class="navButton"><a href="#" class=" navLink">Contact</a></li>
+        </ul>
+          <ul class="right hide-on-med-and-down" id="navListRight">
+        <li class="navButton"><a href="#" class=" navLink">Resources</a></li>
+        <li class="navButton"><a href="#" class=" navLink">News</a></li>
+        <li class="navButton"><a href="#" class=" navLink">Disclaimers</a></li>  
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">About Us</a></li>
+        <li><a href="infohub.html">Info Hub</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Disclaimers</a></li>  
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+    <br>
+    <br>
+  <div class="container" style="align-content: center;">
+    <div class="section">  
+      <div class="row" >
+
+        <div class="col s12 m6" id="homepageSheild" style="padding-left:5%;"  >
+            <a href="report.html"><img src="img/report.png" id="reportSheild" > </a>
+          </div>
+            
+        <div class="col s12 m6 " id="panelDiv"  >
+            <p id="panelText"> Project Mawla seeks to provide a safe space that empowers private citizens by way of education, data analysis and reporting. The intended purpose of Project Mawla, its initiatives, and collected data is to serve as a counterpoint to the systemically supported notion that Islamophobia neither exists nor affects the livelihood of American Muslims and those racially, ethnically, or religiously profiled as such.</p>
+            
+            <img src="img/panel.png" id="panelImage" >
+        </div>
+
+        </div>
+      </div>
+    </div>
+    
+    <img src="img/data%20bars.png" id="bars" style="position: absolute; 
+bottom: 0; width:100%; pointer-events: none;"  >
+
+
+  <!--  Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $(".enter").click(function(){
+            $(".fadeMe").fadeOut(1000)
+            document.getElementById( 'top' ).scrollIntoView();
+        });
+    });
+    </script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+    
+  </body>
+</html>

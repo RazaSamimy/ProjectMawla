@@ -1,0 +1,281 @@
+@font-face {
+    font-family: lemonMilk;
+    src: url(LemonMilk.otf);
+}
+@font-face {
+    font-family: Brandon_med;
+    src: url(Brandon_med.otf);
+}
+body {
+    background-image: url(background.jpg);
+    background-size: 100%;
+}
+.icon-block {
+    padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+div.fadeMe {
+    opacity: 100;
+    background: white;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    position: fixed;
+    font-family: lemonMilk;
+    font-size: 100%;
+    color: #FACBB6;
+    background-image: url(background.jpg);
+    background-size: 100%;
+}
+div.fadeMeContent {
+    position: fixed;
+    /* or absolute */
+    
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 70%;
+    
+}
+.enterTitle {
+    font-size: 170%;
+}
+img.fadeMeLogo {
+    width: 20%;
+    margin-left: 5%;
+    min-width: 50px;
+}
+img.navLogo {
+    width: 115px;
+    
+}
+.enter {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FACBB6;
+    display: block;
+    font-size: 160%;
+    padding: 1px;
+    margin: auto;
+    width: 90px;
+}
+.enter:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+li.navButton {
+   
+}
+.navLink {
+    height: 60px;
+    font-family: lemonMilk;
+}
+#top {
+    background-color: #8BD0C6;
+    height: 60px;
+}
+#navContainer {
+    margin-top: 20px;
+}
+.brand-logo {
+    margin-top: -15px;
+}
+#navList {
+}
+
+#infoPanel{
+    font-family: lemonMilk;
+    color: white;
+    font-size: 130%;
+}
+
+#panelText{
+    font-family: lemonMilk;
+    color: #F0F0F0;
+    font-size: 110%;
+    width: 90%;
+    z-index:1;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+     min-width: 300px;
+/*
+    background-image: url(panel.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+*/
+
+    
+}
+
+#panelDiv{
+  position: relative;
+    height: 100%;
+    
+}
+
+#panelImage{
+    width:95%;
+    z-index:0;
+    height: 100%;
+    min-width: 300px;
+   
+
+}
+#reportSheild{
+  width:100%;
+}
+#reportSheild:hover{
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter:         drop-shadow(5px 5px 5px #222); 
+
+}
+
+@media (max-width: 800px) {
+#bars {
+display: none;
+}
+}
+
+@media (max-width: 800px) {
+#panelText {
+color: #C4777F;
+}
+}
+
+
+
+#infoHubText{
+    font-family: Brandon_med;
+    font-size: 18px;
+    color:#82BDDF;
+    font-weight: 800;
+}
+
+#malcomXQuote{       
+font-family: lemonMilk;
+    letter-spacing: 3px;
+font-size: 20px;
+    opacity: 1;
+    font-weight: bolder;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #82BDDF,
+    1px -1px 0 #82BDDF,
+    -1px 1px 0 #82BDDF,
+    1px 1px 0 #82BDDF;
+    
+}
+
+#formIntro{
+    background-image: url(../img/border.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 3%;
+     font-family: Brandon_med;
+    color: #84B7CE;
+    font-size: 100%;
+}
+
+#formIntroLeftTitle{
+    text-align:center;color:#5394AF;font-family:lemonMilk;
+}
+
+#formIntroLeftBlock{
+    text-align:justify;
+    font-size: 115%;
+}
+
+#subLeftBlock{
+    text-align:justify;
+    font-size: 150%;
+    font-family: Brandon_med;
+}
+
+#disclaimer{
+    text-align:justify;
+    height: 300px;
+    font-family: Brandon_med;
+     overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+
+a.darken {
+    display: inline-block;
+    background: black;
+    padding: 0;
+}
+
+a.darken img {
+    display: block;
+    
+    -webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+}
+
+a.darken:hover img {
+    opacity: 0.7;
+            
+}
+
+#form{
+    font-family: lemonMilk;
+    color: #84B7CE;
+    font-size: 90%;
+    
+}
+
+#scrollable,#scrollable2,#scrollable3{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    padding: 5px;
+}
+
+#scrollable3{
+    padding-left: 15px;
+}
+
+h2,#formh3{
+    color: #8BD0C6;
+    font-family: lemonMilk;
+    margin-bottom: 0px;
+    border-bottom: 6px solid #8BD0C6;
+    padding-top: 0px;
+}
+
+h5{
+    color: #8BD0C6;
+    font-family: lemonMilk;
+    margin-bottom: 0px;
+}
+
+#subHeading{
+    color:#8BD0C6;
+    font-family: lemonMilk;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #B56F74;
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+}
+
+
+
